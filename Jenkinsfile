@@ -1,12 +1,7 @@
 pipeline {
     
 	agent any
-/*	
-	tools {
-        maven "maven3"
-    }
-*/ION = "${env.BUILD_ID}"
-   
+
     stages{
         
         stage('BUILD'){
